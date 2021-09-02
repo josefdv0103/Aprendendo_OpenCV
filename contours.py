@@ -6,7 +6,7 @@ img = cv.imread('Fotos/anelideos.jpg')
 cv.imshow('Minhoca', img)
 
 branco = np.zeros(img.shape, dtype = 'uint8')
-cv.imshow('Branco', branco)
+#cv.imshow('Branco', branco)
 
 cinza = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 #cv.imshow('Cinza', cinza)
