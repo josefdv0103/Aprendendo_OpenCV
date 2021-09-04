@@ -28,7 +28,7 @@ bitwise_xor = cv.bitwise_xor(retangulo, circulo)
 cv.imshow('Bitwise XOR', bitwise_xor)
 
 #   bitwise NON
-# Pega duas imagens e mostra
+# Pega uma inmagem e inverte as cores nesse caso preto em branco e vice versa
 bitwise_not = cv.bitwise_not(retangulo)
 cv.imshow('bitwise Not', bitwise_not)
 
