@@ -37,10 +37,10 @@ retangulo3a = rodado(retangulo3, - 45)
 #cv.imshow('Retangulo3', retangulo3a)
 
 junto3 = cv.bitwise_or(retangulo2a, retangulo3a)
-cv.imshow('Junto3', junto3)
+#cv.imshow('Junto3', junto3)
 
 junto4 = cv.bitwise_and(junto3, circulo1)
-cv.imshow('Junto4', junto4)
+#cv.imshow('Junto4', junto4)
 
 junto5 = cv.bitwise_and(img, img, mask = junto4)
 cv.imshow('Junto5', junto5)
