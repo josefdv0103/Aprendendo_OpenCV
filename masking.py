@@ -5,7 +5,7 @@ img = cv.imread('Fotos/anelideos.jpg')
 cv.imshow('Minhoca', img)
 
 blank = np.zeros(img.shape[:2], dtype = 'uint8')
-#cv.imshow('Blanck', blank)
+cv.imshow('Blank', blank)
 
 maskcirculo = cv.circle(blank.copy(), (img.shape[1]//2, img.shape[0]//2), 100, 255, -1)
 #cv.imshow('Mask circulo', maskcirculo)
