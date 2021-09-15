@@ -11,7 +11,7 @@ gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 #cv.imshow('Cinza', gray)
 
 blank = np.zeros((img.shape[:2]), dtype = 'uint8')
-cv.imshow('blank', blank)
+
 circle = cv.circle(blank, (img.shape[1]//2, img.shape[0]//2), 100, 255, -1)
 
 mask = cv.bitwise_and(gray, gray, mask = circle)
